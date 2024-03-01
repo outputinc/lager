@@ -167,6 +167,17 @@ From then on, one may build and run all tests by doing::
 
     make check
 
+Publishing to Output's vcpkg-registry
+-------
+
+1) Create a Release in GitHub:
+
+https://github.com/outputinc/lager/releases
+
+2) When build finishes, merge the corresponding PR into the registry:
+
+https://github.com/outputinc/vcpkg-registry
+
 License
 -------
 
